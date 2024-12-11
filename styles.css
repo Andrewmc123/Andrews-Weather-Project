@@ -1,0 +1,127 @@
+*{ 
+    margin: 0; 
+    padding:0; 
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box; 
+}
+
+body{
+background:#0a3b5c;
+display:flex; 
+justify-content:center; 
+align-items:center; 
+height: 100vh; 
+margin: 0; 
+}
+
+.card{
+    width: 100%; 
+    max-width: 490px; 
+    background:linear-gradient(135deg, #0a5c46, #341a7e); 
+    color: #fff; 
+    border-radius: 20px; 
+    padding: 40px 35px; 
+    text-align: center; 
+    margin:0;  
+  
+
+}
+
+.search img {
+    width: 100%; 
+    max-width: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-bottom: 25px; 
+}
+.search input{
+    border: 0; 
+    outline: 0; 
+    background: #ebfffc; 
+    color: #555; 
+    padding: 10px 25px; 
+    height: 60px; 
+    border-radius: 30px; 
+    flex: 1; 
+    margin-right: 16px; 
+    font-size: 18px;  
+}
+
+.search button{ 
+    width: 40px; 
+    border:0; 
+    outline: 0; 
+    background: #ebfffc; 
+    border-radius: 20%; 
+    height: 27px; 
+    cursor: pointer; 
+    margin-bottom: 70px; 
+    justify-content: center; 
+    margin-right: 20px; 
+    margin-top: 50px; 
+}
+
+
+.weather-container{
+    justify-content: center;
+    align-items: center; 
+}
+
+.weather-icon{
+width:50%; 
+margin-bottom: 70px; 
+border-radius: 50%; 
+margin-left: 10px; 
+}
+
+.temp{
+   width:50px; 
+   margin-bottom:20px; 
+   margin-left:150px; 
+   font-size: 50px; 
+}
+
+.details{
+    display: flex; 
+   flex-direction:cloumn; 
+   align-items: center; 
+} 
+.City-container{
+    width:100%; 
+    margin-top: 10px; 
+    max-width: 100px; 
+    font-size: 10px; 
+    margin-bottom: 5px; 
+    margin-left: 90px; 
+   
+}
+.humidity-img{
+    width: 70px;
+  height: 50px; 
+}
+
+
+
+.wave-icon{
+    width:50px; 
+    margin-top:50px;
+    margin-left: 20px; 
+    justify-content:center;  
+
+}
+
+.wind{
+    width: 90px; 
+    margin-left: 320px; 
+}
+.wind-img{
+    width: 60px;
+    position: relative; 
+    top: 50px;
+    margin-left: 255px; 
+}
+
+.wind-icon{
+    width: 50px; 
+}
